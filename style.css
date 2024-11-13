@@ -76,6 +76,20 @@ header img {
     width: 100%;
     margin: auto;
 }
+
+p {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
 /* HERO */
 
 .hero {
@@ -118,9 +132,9 @@ h1 {
 /* Nos services */
 
 .containerServices div {
-    background-color: red;
     width: 60%;
     margin-left: 80px;
+    gap: 20px;
 }
 
 .containerServices aside {
@@ -151,14 +165,27 @@ h1 {
 .w60 {
     width: 60%;
 }
+
 /* Articles récents */
 
 .sticky {
     position: sticky;
-    top: 10px;
+    top: 80px;
 }
 
 .top {
     top: 80px;
     height: 10%;
 }
+/* Filigrane */
+
+.filigrane {
+    position: fixed;
+    top: 192px;
+    left: 0px;
+    color: #F1E6E6;
+    z-index: -1;
+}
+
+/* Histoire du Château */
+
