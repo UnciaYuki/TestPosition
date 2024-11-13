@@ -19,9 +19,6 @@ body {
     justify-content: space-between;
 }
 
-.spaceEvenly {
-    justify-content: space-evenly;
-}
 
 a {
     text-decoration: none;
@@ -68,7 +65,7 @@ header {
 }
 
 header img {
-    width: 5%;
+    width: 15%;
 }
 
 .alignCenter {
@@ -82,8 +79,8 @@ header img {
 }
 
 .paddingSection {
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h3 {
@@ -120,15 +117,22 @@ h3 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 800;
     margin-bottom: 15px;
     color: white;
 }
 
 .hero p {
     font-size: 30px;
+    font-weight: 500;
     margin-bottom: 35px;
     color: white;
+}
+
+h3 {
+    color : #B9625D;
+
 }
 
 /* Nos services */
@@ -141,6 +145,14 @@ h1 {
 .containerServices aside {
     width: 15%;
 }
+
+.containerServices>aside>ul>li>a {
+    color: black;
+}
+
+.ulService{
+    list-style: active;
+    text-decoration: active;}
 
 .aServ {
     position: relative;
@@ -160,6 +172,7 @@ h1 {
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .w60 {
@@ -198,6 +211,17 @@ h1 {
     background-color: #B9625D;
 }
 
+.h3 {
+    color: white;
+}
+
+.h4 {
+    color: white;
+}
+
+.p {
+    color: white;
+}
 .w50 {
     width: 50%;
 }
@@ -208,3 +232,7 @@ h1 {
     width: 49%;
 }
 
+.marginBottom {
+    margin-bottom: 20px;
+    
+}
