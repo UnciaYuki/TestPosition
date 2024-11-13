@@ -25,7 +25,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
     display: inline-block;
 }
 
@@ -38,6 +37,7 @@ li {
     padding: 16px 55px;
     border-radius: 15px;
     font-size: 1.5rem;
+    color: white;
 }
 
 .relative {
@@ -53,6 +53,10 @@ header nav {
     width: 40%;
 }
 
+header a {
+    color: white;
+}
+
 header {
     padding: 0px 40px;
     background-color: #B9625D;
@@ -64,7 +68,7 @@ header {
 }
 
 header img {
-    width: 15%;
+    width: 5%;
 }
 
 .alignCenter {
@@ -72,13 +76,14 @@ header img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     margin: auto;
 }
 
-p {
-    color: white;
+.paddingSection {
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 h3 {
@@ -86,9 +91,6 @@ h3 {
     margin-bottom: 32px;
 }
 
-section {
-    margin-bottom: 100px;
-}
 
 /* HERO */
 
@@ -132,13 +134,11 @@ h1 {
 /* Nos services */
 
 .containerServices div {
-    width: 60%;
-    margin-left: 80px;
+    width: 70%;
     gap: 20px;
 }
 
 .containerServices aside {
-    background-color: pink;
     width: 15%;
 }
 
@@ -166,6 +166,7 @@ h1 {
     width: 60%;
 }
 
+
 /* Articles récents */
 
 .sticky {
@@ -188,4 +189,22 @@ h1 {
 }
 
 /* Histoire du Château */
+
+.br23 {
+    border-radius: 23px;
+}
+
+.bg {
+    background-color: #B9625D;
+}
+
+.w50 {
+    width: 50%;
+}
+
+/* Origine et construction */
+
+.pinline {
+    width: 49%;
+}
 
